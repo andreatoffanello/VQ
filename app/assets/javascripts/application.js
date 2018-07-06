@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require main
-//= require jquery.splitlines
-//= require animejs/anime.min
+//= require main.js
+//= require jquery.splitlines.js
+//= require animejs/anime.min.js
 
 //= require_tree .
