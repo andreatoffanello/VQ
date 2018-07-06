@@ -1,0 +1,16 @@
+{
+  "name": "daaab-framework",
+  "version": "1.0.0",
+  "description": "framework for daaab",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "test",
+    "scss": "node-sass --watch scss -o css --output-style compressed"
+  },
+  "author": "AT",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "postscss": "^1.6.0"
+  }
+}

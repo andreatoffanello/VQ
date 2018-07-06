@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Venice Quest Stop</title>
+	
+	<script src="js/animejs/anime.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style/css/style.css">
+
+</head>
+
+<body class="">
+
+	<header>
+	</header>
+
+
+	<div class="main">
+
+		<div class="img_overlay"></div>
+		
+		<img class="main_img" src="images/stop_main.jpg">
+
+		<div class="stop_name">
+
+			<h3>Capitolo IV</h3>
+
+			<h1>Lorem ipsum</h1>
+
+		</div>
+
+		<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<div class="pswd_box">
+
+			<input type="text" id="password" name="validation" placeholder="••••" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" />
+
+			<input id="button" type="button" class="button" value="Invia"/>
+			
+		</div>
+		
+	</div>
+
+	<div id="success" class="response">
+
+		<div class="content">
+
+			<h1>GRANDE!</h1>
+
+			<p>La chiave inserita ha decriptato il prossimo indizio.</p>
+
+			<button>Prosegui</button>
+			
+		</div>
+		
+	</div>
+
+	<div id="error" class="response">
+
+		<div class="content">
+
+			<h1>OH NO!</h1>
+
+			<p>La chiave inserita non è corretta...</p>
+			
+			<button>Riprova</button>
+
+		</div>
+
+	</div>
+
+	<div class="animation_overlay">
+
+		<div class="circ el"></div>
+
+		<div class="circ1 el"></div>
+
+		<div class="circ2 el"></div>
+
+		<div class="circ3 el"></div>
+
+		<div class="point"></div>
+			
+	</div>
+
+	<script src="js/jquery.splitlines.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
