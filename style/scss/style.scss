@@ -21,6 +21,12 @@ button {
 
 .main {
 	display: grid;
+	//height: 100vh;
+    //overflow: hidden;
+}
+
+h1 {
+	margin: 16px;
 }
 
 .img_overlay {
@@ -44,7 +50,7 @@ button {
 		display: inline;
 		letter-spacing: 5px;
 		text-shadow: 1px 1px 8px rgba(0,0,0,0);
-		will-change: top, opacity, letter-spacing;	
+		//will-change: top, opacity, letter-spacing;	
 	}
 }
 
