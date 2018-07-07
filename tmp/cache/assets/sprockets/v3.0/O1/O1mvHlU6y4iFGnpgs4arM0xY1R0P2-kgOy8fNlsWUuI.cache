@@ -1,0 +1,66 @@
+{:uriI"Œfile://app/assets/javascripts/animejs/package.json?type=application/json&id=e4d60aa028a2bf84c332cbcd8774cd3778e9ec5026b45b46dd338cf5c624c1b8:ET:load_pathI"app/assets/javascripts;T:filenameI"0app/assets/javascripts/animejs/package.json;T:	nameI"animejs/package;T:logical_pathI"animejs/package.json;T:content_typeI"application/json;T:sourceI"\{
+  "_from": "animejs",
+  "_id": "animejs@2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Ne79/FNbgZScnLBvCz5gwC5v3IA=",
+  "_location": "/animejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "animejs",
+    "name": "animejs",
+    "escapedName": "animejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/animejs/-/animejs-2.2.0.tgz",
+  "_shasum": "35eefdfc535b81949c9cb06f0b3e60c02e6fdc80",
+  "_spec": "animejs",
+  "_where": "/Users/andreatoffanello/GitHub/VPC30",
+  "author": {
+    "name": "Julian Garnier",
+    "email": "hello@julian.gr"
+  },
+  "bugs": {
+    "url": "https://github.com/juliangarnier/anime/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "JavaScript animation engine",
+  "devDependencies": {
+    "google-closure-compiler-js": "^20170124.0.0"
+  },
+  "files": [
+    "anime.js",
+    "anime.min.js"
+  ],
+  "homepage": "http://animejs.com",
+  "keywords": [
+    "anime",
+    "animation",
+    "javascript",
+    "CSS",
+    "transforms",
+    "SVG",
+    "canvas"
+  ],
+  "license": "MIT",
+  "main": "anime.min.js",
+  "name": "animejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliangarnier/anime.git"
+  },
+  "version": "2.2.0"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI">file-digest://app/assets/javascripts/animejs/package.json;TTF:charsetI"
+utf-8;F:digest"%óTËàıˆ<•„òVÓÖœ]ÆPv•œ¯ga@ë:lengthi\:dependencies_digest"%ƒ\Û#€!ÁÌ$-­‘”aÖ¸,­ĞÓ*J×r2:idI"Ee4d60aa028a2bf84c332cbcd8774cd3778e9ec5026b45b46dd338cf5c624c1b8;F:
+mtimel+vZ
