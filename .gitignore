@@ -1,0 +1,8 @@
+
+log/development.log
+*.log
+*.cache
+tmp/*
+test/*
+*.log
+*.log

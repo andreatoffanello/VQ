@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>daAaB API</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="nav shadow">
+
+		<img class="logo" src="images/logo.svg">
+
+		<div class="menu">
+
+			<a href="#">About</a>
+
+			<a href="#">Aspects</a>
+
+			<a href="#">Sourcecode</a>
+
+			<a href="#">Contacts</a>
+
+			<a href="#">API DOCS</a>
+			
+		</div>
+
+	</div>
+
+	<div class="nav mobile-nav shadow">
+
+	    <img class="logo" src="images/logo.svg">
+
+	    <img class="menu-toggle" src="images/icon_menu_w.svg">
+
+	    <!--%= image_tag 'icon_menu_w.svg', :class => "menu-toggle" %-->
+	    
+	</div>
+
+	<div class="fullscreen-menu">
+
+	    <div class="menu-bar">
+
+	    	<img class="logo" src="images/logo.svg">
+
+	    	<img class="menu-toggle" src="images/icon_close_w.svg">
+	    
+	    </div>
+
+	    <div class="primary">
+
+	        <a href="#">About</a>
+
+			<a href="#">Aspects</a>
+
+			<a href="#">Sourcecode</a>
+
+			<a href="#">Contacts</a>
+
+			<a href="#">API DOCS</a>
+	        
+	    </div>
+
+	    <div class="secondary">
+
+	    	<a href="#">Vai a daAaB</a>
+
+	        <a href="#">INFO SOCIETARIE</a>
+	        
+	    </div>
+	    
+	</div>
+
+
+
+	<div class="page-container">
+			
+	</div>
+
+
+
+	<footer>
+		
+	</footer>
+
+
+</body>
+
+<script>    
+    $(".menu-toggle").click(function() {
+        $(".fullscreen-menu").toggleClass("show");
+    });
+</script>
+
+</html>
